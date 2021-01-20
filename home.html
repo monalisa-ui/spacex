@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>SpaceX</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+		<link href="css/spacex.css" rel="stylesheet">
+	</head>
+	<body>
+	<div class="container">
+		<div class="jumbotron">
+			<h2>SpaceX Launch Programs</h2>
+			<div class="row">
+			  <div class="col-md-3 col-sm-6 col-xs-12  filterMainDiv">
+				<h4>Filters</h4>				
+				<div class="filterDiv">
+					<h5 class="labelText">Launch Year</h5>
+					<div id="lunchYearDiv"></div>
+				</div>
+				
+				<div class="filterDiv" id="successLunch">
+					<h5 class="labelText">Succesfull Launch</h5>
+					<button class="lunchBtn">true</button>
+					<button class="lunchBtn">false</button>
+				</div>
+				
+				<div class="filterDiv" id="successLand">
+					<h5 class="labelText">Succesfull Landing</h5>
+					<button class="lunchBtn">true</button>
+					<button class="lunchBtn">false</button>
+				</div>
+				
+			  </div>
+			  <div class="col-md-9 col-sm-6 col-xs-12">
+				<div class="row" id="contentDiv"></div>
+			  </div>
+			</div>
+			<div class="centerAlign">&copy; Developed by: Monalisa Mahapatra</div>  
+		</div>		 
+	</div>		
+	</body>
+	<footer>
+		<script src="js/jquery.js"></script>
+		<script src="js/bootstrap.js"></script>
+		<script src="js/spacex.js"></script>
+	</footer>
+</html>
